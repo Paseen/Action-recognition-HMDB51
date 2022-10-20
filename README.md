@@ -1,6 +1,6 @@
 # Action recognition on HMDB51 dataset using deep neural networks
-In this project we used a two-stream CNN to perform an action recognition task on HMDB-51 dataset. The two-stream CNN is composed by a spatial CNN that elaborates video's frames and by a temporal CNN that elaborates the video's optical flows. 
-<br>
+In this project we used a two-stream CNN to perform an action recognition task on HMDB-51 dataset. The two-stream CNN is composed by a spatial CNN that elaborates video's frames and by a temporal CNN that elaborates the video's optical flows. After the convolutions the two streams were joined by averaging the CNN's softmax scores. 
+<br><br>
 We build two neural networks that differ only by the spatial CNN: the first one has an hand-crafted architecture, the second one is a finetuned ResNet50. 
 
 # Frames and optical flow extraction
@@ -23,6 +23,8 @@ The training and test set division was the same as the one suggested by the crea
 - Temporal CNN: the net was trained with a 128 size batch at a time. This batch was composed by 128 optical flows drawn from random videos. The optical flows were made by a stack of 10 consecutive x-channel and 10 consecutive y-channel optical flows from the same time interval of the video. The resulting input was a stacked optical flow with a 224x224x20 shape. 
 
 # Testing phase
+
+
 
 # Results
 |Network     | One frame | Whole video  |
