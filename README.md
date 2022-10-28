@@ -1,3 +1,8 @@
+I'll update the readme very soooooooon :) sorry for the waiting
+
+In the meantime you can read the <strong>Report.pdf</strong> which shows the job me and my colleagues did 
+
+
 # Action recognition on HMDB51 dataset using deep neural networks
 In this project we used a two-stream CNN to perform an action recognition task on HMDB-51 dataset. The two-stream CNN is composed by a spatial CNN that elaborates video's frames and by a temporal CNN that elaborates the video's optical flows. After the convolutions the two streams were joined by averaging the CNN's softmax scores. 
 <br><br>
@@ -33,9 +38,7 @@ The training and test set division was the same as the one suggested by the crea
 |Temporal    |25.8%           |NA% |
 |Fusion      |38.0%           |NA% |
 
-I'll update the readme very soooooooon :) sorry for the waiting
 
-In the meantime you can read the <strong>Report.pdf</strong> which shows the job me and my colleagues did 
 
 (devo sistemare notebook expl)
 
