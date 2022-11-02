@@ -40,5 +40,3 @@ The training and test set division was the same as the one suggested by the crea
 
 
 
-(devo sistemare notebook expl)
-
